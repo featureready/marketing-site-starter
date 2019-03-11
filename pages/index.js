@@ -174,18 +174,11 @@ const Index = () => (
           <h5 className="font-weight-light text-secondary">
             We are launching new features every few weeks - get notified first!
           </h5>
-          <div className="my-5 row justify-content-center">
+          <div className="mt-4 row justify-content-center">
             <div className="col-md-5">
-              <form>
-                <div className="input-group input-group-lg">
-                  <input type="email" className="form-control" />
-                  <div className="input-group-append">
-                    <button type="submit" className="btn btn-primary">
-                      Subscribe
-                    </button>
-                  </div>
-                </div>
-              </form>
+              <a href="http://eepurl.com/gj6_5H" className="btn btn-lg btn-primary">
+                Subscribe
+              </a>
             </div>
           </div>
         </div>
