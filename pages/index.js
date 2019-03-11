@@ -149,7 +149,7 @@ const Index = () => (
                 </li>
                 <li className="my-2">Segment integration (analytics)</li>
                 <li className="my-2">SendGrid integration (emails)</li>
-                <li className="my-2">Node.js, Sequelize and GraphQL endpoint</li>
+                <li className="my-2">Node.js, Sequelize and GraphQL</li>
               </ul>
             </h5>
             <a
