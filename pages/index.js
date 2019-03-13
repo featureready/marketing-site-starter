@@ -1,9 +1,10 @@
 import React from 'react';
-import '../styles/index.scss';
 import BrowserFrame from '../components/BrowserFrame';
+import Head from '../components/Head';
 
 const Index = () => (
   <div>
+    <Head />
     <div className="bg-light">
       <div className="container">
         <nav className="navbar navbar-expand-lg justify-content-between mb-5">
@@ -12,24 +13,10 @@ const Index = () => (
             <span className="font-weight-light">Ready</span>
           </a>
           <ul className="navbar-nav">
-            <li className="nav-item active">
-              <a className="nav-link" href="/features">
-                Features
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/pricing">
-                Pricing
-              </a>
-            </li>
             <li className="nav-item">
               <a className="nav-link" href="/blog">
-                Blog
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/sign-in">
-                Sign In
+                Articles about product management
+                <i className="fa fa-arrow-right" />
               </a>
             </li>
           </ul>
