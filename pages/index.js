@@ -7,8 +7,8 @@ const Index = () => (
     <Head />
     <div className="bg-light">
       <div className="container">
-        <nav className="navbar navbar-expand-lg justify-content-between mb-5">
-          <a href="/" className="navbar-brand">
+        <nav className="navbar navbar-expand-lg justify-content-between mb-md-5">
+          <a href="/" className="text-dark navbar-brand">
             <span className="font-weight-regular">Feature</span>
             <span className="font-weight-light">Ready</span>
           </a>
@@ -16,14 +16,14 @@ const Index = () => (
             <li className="nav-item">
               <a className="nav-link" href="/blog">
                 Articles about product management
-                <i className="fa fa-arrow-right" />
+                <i className="ml-2 fal fa-long-arrow-right" />
               </a>
             </li>
           </ul>
         </nav>
       </div>
       <div className="container">
-        <div className="text-center p-md-5">
+        <div className="text-center py-5">
           <h1>Delightful tools for product teams</h1>
           <h4 className="font-weight-light">A set of tools that makes shipping features easier</h4>
           <a href="/get-started" className="btn btn-primary btn-lg px-5 py-2 my-md-5">
@@ -35,9 +35,12 @@ const Index = () => (
     <div className="bg-white py-5">
       <div className="container">
         <div className="text-muted text-center">FEATURES</div>
-        <div className="py-3" />
+        <div className="py-md-3" />
         <div className="row align-items-center my-5">
-          <div className="col-md-4 px-5">
+          <div className="col-md-8 mb-5 mb-md-0 order-md-2">
+            <BrowserFrame alt="Asana Task Numbers" src="/static/asana-running-numbers.gif" />
+          </div>
+          <div className="col-md-4 px-md-5">
             <h3>Generate Asana task numbers</h3>
             <h5 className="font-weight-light text-secondary mt-3">
               Reduce team confusion when referring to tasks within Asana.
@@ -56,13 +59,13 @@ const Index = () => (
               Get this tool
             </a>
           </div>
-          <div className="col-md-8">
-            <BrowserFrame alt="Asana Task Numbers" src="/static/asana-running-numbers.gif" />
-          </div>
         </div>
-        <div className="py-3" />
+        <div className="py-md-3" />
         <div className="row align-items-center my-5">
-          <div className="col-md-4 px-5 order-2">
+          <div className="col-md-8 mb-5 mb-md-0">
+            <BrowserFrame alt="Asana GitHub Sync" src="/static/asana-github-sync.png" />
+          </div>
+          <div className="col-md-4 px-md-5">
             <h3>Sync GitHub with Asana cards</h3>
             <h5 className="font-weight-light text-secondary mt-3">
               Visually identify which cards are being worked on, waiting for PR review or ready for
@@ -78,13 +81,16 @@ const Index = () => (
               Get this tool
             </a>
           </div>
-          <div className="col-md-8">
-            <BrowserFrame alt="Asana GitHub Sync" src="/static/asana-github-sync.png" />
-          </div>
         </div>
-        <div className="py-3" />
+        <div className="py-md-3" />
         <div className="row align-items-center my-5">
-          <div className="col-md-4 px-5">
+          <div className="col-md-8 mb-5 mb-md-0">
+            <BrowserFrame
+              alt="Marketing Site Boilerplate"
+              src="/static/marketing-site-boilerplate.png"
+            />
+          </div>
+          <div className="col-md-4 px-md-5">
             <h3>Startup marketing site + blog boilerplate</h3>
             <h5 className="font-weight-light text-secondary my-3">
               Get started quickly with all the commonly required features of a startup marketing
@@ -112,16 +118,13 @@ const Index = () => (
               Get this tool
             </a>
           </div>
-          <div className="col-md-8">
-            <BrowserFrame
-              alt="Marketing Site Boilerplate"
-              src="/static/marketing-site-boilerplate.png"
-            />
-          </div>
         </div>
-        <div className="py-3" />
+        <div className="py-md-3" />
         <div className="row align-items-center my-5">
-          <div className="col-md-5 px-5 order-2">
+          <div className="col-md-7 mb-5 mb-md-0 order-md-2">
+            <BrowserFrame alt="SaaS App Boilerplate" src="/static/saas-app-boilerplate.png" />
+          </div>
+          <div className="col-md-5 px-md-5">
             <h3>SAAS app boilerplate</h3>
             <h5 className="font-weight-light text-secondary">
               Get started quickly with all the commonly required features of a SAAS app (API only)
@@ -145,9 +148,6 @@ const Index = () => (
             >
               Get this tool
             </a>
-          </div>
-          <div className="col-md-7">
-            <BrowserFrame alt="SaaS App Boilerplate" src="/static/saas-app-boilerplate.png" />
           </div>
         </div>
       </div>
